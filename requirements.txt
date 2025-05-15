@@ -1,0 +1,12 @@
+yt_dlp
+ffmpeg-python
+openai-whisper
+openai~=1.77.0
+schedule
+requests
+ffmpeg~=1.4
+google-auth==2.23.0
+google-auth-oauthlib==0.7.1
+google-auth-httplib2==0.2.0
+google-api-python-client==2.81.0
+python-dotenv
