@@ -1,10 +1,6 @@
 import requests
 from datetime import datetime
-import os
-from dotenv import load_dotenv
-
-load_dotenv()
-AUDIOBOOKSHELF_TOKEN = os.environ.get("AUDIOBOOKSHELF_TOKEN", "")
+from config import AUDIOBOOKSHELF_TOKEN
 
 # Audiobookshelf 服务器地址和 API 密钥
 SERVER_URL = "http://192.168.1.13:7331"
